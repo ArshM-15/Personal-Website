@@ -1,7 +1,15 @@
+import "./navbar.scss";
+
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1>Navbar</h1>
+      <div className="name-label">Arshvir Mundi.</div>
+      <div className="nav-items">
+        <a>About</a>
+        <a>Projects</a>
+        <a>Contact</a>
+        <a>Resume</a>
+      </div>
     </div>
   );
 };
