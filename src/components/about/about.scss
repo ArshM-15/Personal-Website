@@ -1,0 +1,44 @@
+.about {
+  height: 50vh;
+  .title {
+    margin: auto;
+    text-align: center;
+
+    h1 {
+      color: #8123de;
+    }
+
+    h2 {
+      font-weight: 400;
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 20%;
+    .description {
+      width: 40%;
+      margin-top: 1rem;
+    }
+
+    .skills {
+      width: 50%;
+      .skills-items {
+        display: flex;
+        justify-items: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+
+        div {
+          background-color: #f5f5f7;
+          font-weight: 300;
+          padding: 0.5rem 1rem;
+          border-radius: 10px;
+          margin: 1rem 0.5rem 0 0;
+        }
+      }
+    }
+  }
+}
