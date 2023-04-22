@@ -27,7 +27,6 @@ const About = () => {
             <div>REACT</div>
             <div>SASS</div>
             <div>GIT</div>
-            <div>GIT</div>
           </div>
         </div>
       </div>
