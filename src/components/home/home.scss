@@ -25,6 +25,11 @@
     }
   }
 
+  @media (max-width: 600px) {
+    width: 70%;
+    height: 70vh;
+  }
+
   h1:nth-child(1) {
     font-weight: 600;
     font-size: 1.4rem;
@@ -51,6 +56,10 @@
   h1:nth-child(2) {
     margin-top: 5%;
     font-size: 4rem;
+
+    @media (max-width: 600px) {
+      font-size: 3rem;
+    }
   }
 
   h2 {

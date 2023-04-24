@@ -1,5 +1,9 @@
 .about {
-  height: 60vh;
+  height: 50vh;
+
+  @media (max-width: 600px) {
+    height: 90vh;
+  }
   .title {
     margin: auto;
     text-align: center;
@@ -18,9 +22,18 @@
     justify-content: space-between;
     width: 70%;
     margin-left: 20%;
+
+    @media (max-width: 600px) {
+      display: block;
+    }
     .description {
       width: 44%;
       margin-top: 1rem;
+
+      @media (max-width: 600px) {
+        width: 90%;
+        margin-top: 3rem;
+      }
 
       p {
         font-weight: 400;
@@ -30,6 +43,10 @@
 
     .skills {
       width: 50%;
+      @media (max-width: 600px) {
+        width: 100%;
+        margin-top: 3rem;
+      }
       .skills-items {
         display: flex;
         justify-items: space-between;

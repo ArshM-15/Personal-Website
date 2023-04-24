@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="contact" spy={true} smooth={true} offset={50} duration={700}>
           Contact
         </Link>
-        <a>Resume</a>
+        <a href="https://www.canva.com/design/DAFfGWvoXrM/view">Resume</a>
       </div>
     </div>
   );
