@@ -6,7 +6,7 @@ import countryrolodex from "../../images/country-rolodex.png";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="title">
         <h1>Projects</h1>
         <h2>Here are some of my projects</h2>
@@ -18,12 +18,12 @@ const Projects = () => {
 
             <h3>Unreal Cuts</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis, iusto commodi eligendi excepturi illum dolore a
-              facilis maiores sit repellat nam aliquam architecto quo, animi
-              non. Nostrum sit optio iure!
+              An aesthetically pleasing and responsive template barbershop
+              website made using React and Sass. The website features a sleek
+              and modern design, with clean typography and high-quality images
+              to showcase the services offered by the barbershop.
             </p>
-            <a href="https://unrealcuts.netlify.app/">Live</a>
+            <a href="https://unrealcuts.netlify.app/">View Site</a>
             <a href="https://github.com/ArshM-15/Barbershop-Website">Code</a>
           </div>
 
@@ -31,12 +31,11 @@ const Projects = () => {
             <img src={lafih} alt="image of the website" />
             <h3>Lafih</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
-              incidunt eum inventore itaque velit temporibus corporis quibusdam
-              quam voluptatum enim quisquam aliquam labore, at, assumenda
-              debitis dolore culpa. Hic, vero.
+              A home organizing site that has a minimalistic design with a soft
+              color palette built with React. Google Firebase was used to
+              develop a secure user authentication and data collection system.
             </p>
-            <a href="https://lafih.netlify.app/">Live</a>
+            <a href="https://lafih.netlify.app/">View Site</a>
             <a href="https://github.com/ArshM-15/lafih">Code</a>
           </div>
 
@@ -44,12 +43,12 @@ const Projects = () => {
             <img src={streamerloot} alt="image of the website" />
             <h3>Streamerloot</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              eveniet accusamus perferendis numquam, minima est. Reiciendis id
-              facere nam! Mollitia corrupti autem quod quos excepturi blanditiis
-              distinctio, nobis veritatis inventore!
+              A responsive E-commerce site built only with HTML, CSS, and
+              Javascript that offers all sorts of gaming and streaming
+              equipment. The website's design features a visually engaging
+              layout and a pretty gradient.
             </p>
-            <a href="https://streamerloot.netlify.app/">Live</a>
+            <a href="https://streamerloot.netlify.app/">View Site</a>
             <a href="https://github.com/ArshM-15/streamerloot">Code</a>
           </div>
 
@@ -57,12 +56,12 @@ const Projects = () => {
             <img src={countryrolodex} alt="image of the website" />
             <h3>Country Rolodex</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium distinctio rerum id inventore voluptatibus tempore
-              illum, ratione ut, et qui rem! Ab possimus quasi eos, quisquam
-              quaerat esse aliquid nulla.
+              The website's design features a simple and intuitive layout, with
+              a search bar that allows users to easily search and filter through
+              the database of countries. The site was built with React and the
+              styling was achieved with Sass.
             </p>
-            <a href="https://country-rolodex.netlify.app/">Live</a>
+            <a href="https://country-rolodex.netlify.app/">View Site</a>
             <a href="https://github.com/ArshM-15/Country-Rolodex">Code</a>
           </div>
         </div>

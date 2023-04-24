@@ -1,7 +1,7 @@
 .projects {
-  height: 170vh;
+  height: 180vh;
   background-color: #f1f0f3;
-  padding-top: 5rem;
+  padding-top: 5%;
   .title {
     margin: auto;
     text-align: center;
@@ -17,7 +17,6 @@
   .projects-box {
     .projects-container {
       display: flex;
-      //   justify-items: space-evenly;
       justify-content: space-between;
       flex-wrap: wrap;
 
@@ -36,33 +35,17 @@
           margin-top: 15%;
           font-size: 1.3rem;
           font-weight: 600;
+          border-bottom: 2px solid #8123de;
+          padding-bottom: 1rem;
         }
         p {
-          width: 100%;
           font-weight: 400;
           line-height: 1.5rem;
+          width: 102%;
         }
-        // button {
-        //   all: unset;
-        //   padding: 0.4rem 0.7rem;
-        //   background-color: #8123de;
-        //   color: #fff;
-        //   border-radius: 10px;
-        //   transition: 0.4s;
-        //   font-weight: 500;
-        //   margin-top: 5%;
-        // }
-
-        // button:hover {
-        //   cursor: pointer;
-        //   color: #fff;
-        //   background-color: #8123de;
-        // }
-        // button:nth-of-type(1) {
-        //   margin-right: 1rem;
-        // }
         a {
           all: unset;
+          display: inline-block;
           margin-top: 3%;
           margin-right: 1rem;
           padding: 0.2rem 0.6rem;
