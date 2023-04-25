@@ -20,8 +20,7 @@ const Projects = () => {
             <p>
               An aesthetically pleasing and responsive template barbershop
               website made using React and Sass. The website features a sleek
-              and modern design, with clean typography and high-quality images
-              to showcase the services offered by the barbershop.
+              and modern design, with clean typography and high-quality images.
             </p>
             <a href="https://unrealcuts.netlify.app/">View Site</a>
             <a href="https://github.com/ArshM-15/Barbershop-Website">Code</a>

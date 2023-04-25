@@ -1,9 +1,14 @@
 .about {
-  height: 50vh;
+  height: 60vh;
 
-  @media (max-width: 600px) {
-    height: 90vh;
+  @media (max-width: 850px) {
+    height: 65vh;
   }
+
+  @media (max-width: 500px) {
+    height: 75vh;
+  }
+
   .title {
     margin: auto;
     text-align: center;
@@ -19,20 +24,28 @@
 
   .content {
     display: flex;
-    justify-content: space-between;
-    width: 70%;
-    margin-left: 20%;
+    justify-items: space-between;
+    width: 80%;
+    margin-left: 22%;
 
-    @media (max-width: 600px) {
-      display: block;
+    @media (max-width: 1000px) {
+      width: 90%;
+      margin-left: 20%;
     }
-    .description {
-      width: 44%;
-      margin-top: 1rem;
 
-      @media (max-width: 600px) {
-        width: 90%;
-        margin-top: 3rem;
+    @media (max-width: 850px) {
+      display: block;
+      margin-top: 5%;
+      margin-left: 10%;
+    }
+
+    .description {
+      width: 40%;
+      margin-top: 1rem;
+      margin-right: 2rem;
+
+      @media (max-width: 850px) {
+        width: 92%;
       }
 
       p {
@@ -42,11 +55,13 @@
     }
 
     .skills {
-      width: 50%;
-      @media (max-width: 600px) {
+      width: 40%;
+
+      @media (max-width: 850px) {
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 5%;
       }
+
       .skills-items {
         display: flex;
         justify-items: space-between;
