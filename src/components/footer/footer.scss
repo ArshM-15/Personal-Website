@@ -1,5 +1,9 @@
 .footer {
-  height: 20vh;
+  height: 17vh;
+
+  @media (max-width: 1200px) {
+    margin-top: 7rem;
+  }
 
   .icons-container {
     margin-top: 7%;

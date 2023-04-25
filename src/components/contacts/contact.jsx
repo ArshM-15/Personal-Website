@@ -17,10 +17,11 @@ const Contact = () => {
             <h2>Email</h2>
             <input type="email" name="email" />
           </div>
-          <div className="input-3">
-            <h2>Message</h2>
-            <textarea type="message" name="message" />
-          </div>
+        </div>
+
+        <div className="input-3">
+          <h2>Message</h2>
+          <textarea type="message" name="message" />
         </div>
         <button type="submit" value="submit">
           Submit
