@@ -1,12 +1,12 @@
 .footer {
   height: 17vh;
+  margin-top: 6rem;
 
-  @media (max-width: 700px) {
-    margin-top: 11rem;
+  @media (max-height: 770px) {
+    margin-top: 10rem;
   }
 
   .icons-container {
-    margin-top: 7%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +39,6 @@
 
   h3 {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3%;
   }
 }
