@@ -3,6 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 a {
   all: unset;
 }

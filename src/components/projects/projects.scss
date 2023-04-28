@@ -3,6 +3,14 @@
   background-color: #f1f0f3;
   padding-top: 5%;
 
+  @media (min-width: 1700px) and (max-width: 2000px) {
+    height: 90vh;
+  }
+
+  @media (min-width: 1450px) and (max-width: 1700px) {
+    height: 160vh;
+  }
+
   @media (max-height: 770px) {
     // padding-bottom: 25%;
     height: 200vh;
