@@ -11,7 +11,7 @@ const About = () => {
         <div className="description">
           <h3>Hello!</h3>
           <p>
-            Hi, I am 16 year old Front End Developer who has a passion for
+            Hi, I am a 16 year old Front End Developer who has a passion for
             creating visually appealing and user-friendly websites. I possess a
             strong understanding of HTML, CSS, JavaScript, and React and have
             experience in building responsive web designs that work seamlessly
