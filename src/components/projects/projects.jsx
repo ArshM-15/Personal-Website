@@ -19,7 +19,7 @@ const Projects = () => {
           <h3>Unreal Cuts</h3>
           <p>
             An aesthetically pleasing and responsive template barbershop website
-            made using React and Sass. The website features a sleek and modern
+            made using React and Scss. The website features a sleek and modern
             design, with clean typography and high-quality images.
           </p>
           <a href="https://unrealcuts.netlify.app/">View Site</a>
@@ -58,7 +58,7 @@ const Projects = () => {
             The website's design features a simple and intuitive layout, with a
             search bar that allows users to easily search and filter through the
             database of countries. The site was built with React and the styling
-            was achieved with Sass.
+            was achieved with Scss.
           </p>
           <a href="https://country-rolodex.netlify.app/">View Site</a>
           <a href="https://github.com/ArshM-15/Country-Rolodex">Code</a>
