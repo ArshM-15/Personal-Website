@@ -27,7 +27,7 @@ const About = () => {
             <div>CSS</div>
             <div>JAVASCRIPT</div>
             <div>REACT</div>
-            <div>SASS</div>
+            <div>SCSS</div>
             <div>GIT</div>
           </div>
         </div>
