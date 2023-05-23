@@ -2,6 +2,10 @@
   height: 17vh;
   margin-top: 16%;
 
+  @media (max-width: 500px) {
+    margin-top: 20%;
+  }
+
   .icons-container {
     display: flex;
     justify-content: center;
