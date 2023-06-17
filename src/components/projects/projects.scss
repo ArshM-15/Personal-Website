@@ -1,33 +1,8 @@
 .projects {
-  height: 180vh;
-  background-color: #f1f0f3;
-  padding-top: 5%;
+  height: 100%;
 
-  @media (min-width: 1700px) and (max-width: 2000px) {
-    height: 90vh;
-  }
-
-  @media (min-width: 1450px) and (max-width: 1700px) {
-    height: 160vh;
-  }
-
-  @media (max-height: 770px) {
-    // padding-bottom: 25%;
-    height: 200vh;
-  }
-  @media (max-width: 800px) {
-    padding-bottom: 30%;
-    margin-top: 3rem;
-    height: 350vh;
-  }
-
-  //   @media (max-width: 795px) {
-  //     margin-top: 3rem;
-  //     height: 330vh;
-  //     padding-bottom: 10rem;
-  //   }
   .title {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 
     h1 {
@@ -40,62 +15,139 @@
   }
 
   .projects-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    @media (max-width: 1344px) {
-      justify-content: space-evenly;
-    }
+    display: block;
 
     .projects-item {
-      background-color: #fff;
-      width: 20rem;
-      padding: 2rem;
-      border-radius: 10px;
-      margin: 2rem;
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 5rem;
+      justify-content: space-between;
 
-      @media (max-width: 895px) {
-        width: 17rem;
+      @media (max-width: 1200px) {
+        width: 95%;
       }
 
-      @media (max-width: 799px) {
-        width: 20rem;
+      @media (max-width: 900px) {
+        display: block;
+        justify-content: center;
+        width: 90%;
+        text-align: center;
       }
+
+      @media (max-width: 510px) {
+        text-align: center;
+        width: 90%;
+      }
+
       img {
-        width: 100%;
-        border-radius: 10px;
-        margin: auto;
-      }
-      h3 {
-        margin-top: 15%;
-        font-size: 1.3rem;
-        font-weight: 600;
-        border-bottom: 2px solid #8123de;
-        padding-bottom: 1rem;
-      }
-      p {
-        font-weight: 400;
-        line-height: 1.5rem;
-        width: 102%;
-      }
-      a {
-        all: unset;
-        display: inline-block;
-        margin-top: 3%;
-        margin-right: 1rem;
-        padding: 0.2rem 0.6rem;
-        border: 4px solid #8123de;
-        border-radius: 10px;
-        font-size: 1rem;
-        font-weight: 600;
-        transition: 0.4s;
+        width: 27rem;
+        box-shadow: 1px 6px 9px -2px rgba(0, 0, 0, 0.86);
+        transition: all 0.3s ease-in-out;
+        transform-origin: center;
+
+        @media (max-width: 1200px) {
+          margin-right: 1.2rem;
+        }
+
+        @media (max-width: 900px) {
+          width: 25rem;
+        }
+
+        @media (max-width: 510px) {
+          width: 22rem;
+        }
+
+        @media (max-width: 400px) {
+          width: 20rem;
+        }
       }
 
-      a:hover {
+      img:hover {
+        width: 27.5rem;
+        transform: scale(1.05);
         cursor: pointer;
-        color: #fff;
-        background-color: #8123de;
+
+        @media (max-width: 1200px) {
+          width: 27rem;
+        }
+
+        @media (max-width: 900px) {
+          width: 25rem;
+          transform: scale(1);
+        }
+
+        @media (max-width: 510px) {
+          width: 22rem;
+          transform: scale(1);
+        }
+
+        @media (max-width: 400px) {
+          width: 20rem;
+          transform: scale(1);
+        }
+      }
+      .item-info {
+        width: 50%;
+        margin: 0 auto;
+        @media (max-width: 1200px) {
+          width: 80%;
+        }
+
+        @media (max-width: 900px) {
+          width: 95%;
+        }
+
+        @media (max-width: 510px) {
+          width: 80%;
+        }
+
+        h3 {
+          font-size: 1.3rem;
+          font-weight: 600;
+          color: #8123de;
+          text-align: center;
+        }
+        p {
+          font-weight: 400;
+          line-height: 1.5rem;
+
+          @media (max-width: 510px) {
+            width: 100%;
+          }
+        }
+        .tech-items {
+          display: flex;
+          flex-wrap: wrap;
+
+          @media (max-width: 900px) {
+            justify-content: center;
+          }
+          span {
+            background-color: #f1f0f3;
+            font-weight: 300;
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            margin: 1rem 0.5rem 0 0;
+          }
+        }
+        a {
+          all: unset;
+          display: inline-block;
+          padding: 0.2rem 0.6rem;
+          border: 4px solid #8123de;
+          border-radius: 10px;
+          font-size: 1rem;
+          font-weight: 600;
+          transition: 0.4s;
+          margin-right: 1rem;
+          margin-top: 1.5rem;
+        }
+        a:hover {
+          cursor: pointer;
+          color: #fff;
+          background-color: #8123de;
+        }
       }
     }
   }

@@ -1,13 +1,11 @@
 .about {
-  height: 60vh;
+  height: 100%;
+  padding-bottom: 5rem;
 
   @media (max-width: 1000px) {
-    height: 65vh;
-    margin-bottom: 4rem;
   }
 
   @media (max-width: 500px) {
-    height: 75vh;
     margin-top: 5rem;
   }
 

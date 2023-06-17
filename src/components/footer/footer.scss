@@ -1,11 +1,6 @@
 .footer {
-  height: 17vh;
-  margin-top: 16%;
-
-  @media (max-width: 500px) {
-    margin-top: 35%;
-  }
-
+  height: 100%;
+  margin-top: 5rem;
   .icons-container {
     display: flex;
     justify-content: center;
