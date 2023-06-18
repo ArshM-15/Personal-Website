@@ -52,6 +52,7 @@
 
         @media (max-width: 900px) {
           width: 25rem;
+          margin-right: 0;
         }
 
         @media (max-width: 510px) {
@@ -106,15 +107,14 @@
           font-size: 1.3rem;
           font-weight: 600;
           color: #8123de;
-          text-align: center;
+
+          @media (max-width: 900px) {
+            text-align: center;
+          }
         }
         p {
           font-weight: 400;
           line-height: 1.5rem;
-
-          @media (max-width: 510px) {
-            width: 100%;
-          }
         }
         .tech-items {
           display: flex;
@@ -135,7 +135,7 @@
           all: unset;
           display: inline-block;
           padding: 0.2rem 0.6rem;
-          border: 4px solid #8123de;
+          border: 3px solid #8123de;
           border-radius: 10px;
           font-size: 1rem;
           font-weight: 600;
