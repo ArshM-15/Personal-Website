@@ -2,7 +2,7 @@ import "./projects.scss";
 import unrealcuts from "../../images/unrealcuts.png";
 import lafih from "../../images/lafih.png";
 import streamerloot from "../../images/streamerloot-image.png";
-import countryrolodex from "../../images/country-rolodex.png";
+import academates from "../../images/academates.png";
 
 const Projects = () => {
   return (
@@ -34,29 +34,28 @@ const Projects = () => {
             <a href="https://github.com/ArshM-15/Barbershop-Website">Code</a>
           </div>
         </div>
-
         <div className="projects-item">
-          <a href="https://lafih.netlify.app/">
-            <img src={lafih} alt="image of the website" />
+          <a href="https://academates.tech/">
+            <img src={academates} alt="image of the website" />
           </a>
           <div className="item-info">
-            <h3>Lafih</h3>
+            <h3>Academates</h3>
             <p>
-              A home organizing site that has a minimalistic design with a soft
-              color palette built with React. Google Firebase was used to
-              develop a secure user authentication and data collection system.
+              Academates is a website me and my teammates created at a hackathon
+              that connects ambitious high school students for academic support
+              and motivation.
             </p>
-
             <div className="tech-items">
               <span>HTML</span>
               <span>SCSS</span>
               <span>JAVASCRIPT</span>
-              <span>REACT</span>
               <span>GIT</span>
+              <span>REACT</span>
+              <span>FIGMA</span>
               <span>FIREBASE</span>
             </div>
-            <a href="https://lafih.netlify.app/">View Site</a>
-            <a href="https://github.com/ArshM-15/lafih">Code</a>
+            <a href="https://academates.tech/">View Site</a>
+            <a href="https://github.com/ArshM-15/academates">Code</a>
           </div>
         </div>
 
@@ -82,27 +81,29 @@ const Projects = () => {
             <a href="https://github.com/ArshM-15/streamerloot">Code</a>
           </div>
         </div>
+
         <div className="projects-item">
-          <a href="https://country-rolodex.netlify.app/">
-            <img src={countryrolodex} alt="image of the website" />
+          <a href="https://lafih.netlify.app/">
+            <img src={lafih} alt="image of the website" />
           </a>
           <div className="item-info">
-            <h3>Country Rolodex</h3>
+            <h3>Lafih</h3>
             <p>
-              The website's design features a simple and intuitive layout, with
-              a search bar that allows users to easily search and filter through
-              the database of countries. The site was built with React and the
-              styling was achieved with SCSS.
+              A home organizing site that has a minimalistic design with a soft
+              color palette built with React. Google Firebase was used to
+              develop a secure user authentication and data collection system.
             </p>
+
             <div className="tech-items">
               <span>HTML</span>
               <span>SCSS</span>
               <span>JAVASCRIPT</span>
-              <span>GIT</span>
               <span>REACT</span>
+              <span>GIT</span>
+              <span>FIREBASE</span>
             </div>
-            <a href="https://country-rolodex.netlify.app/">View Site</a>
-            <a href="https://github.com/ArshM-15/Country-Rolodex">Code</a>
+            <a href="https://lafih.netlify.app/">View Site</a>
+            <a href="https://github.com/ArshM-15/lafih">Code</a>
           </div>
         </div>
       </div>
