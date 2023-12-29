@@ -14,7 +14,7 @@ const Footer = () => {
           <i class="fa-solid fa-file" id="page"></i>
         </a>
       </div>
-      <h3>Made with Passion</h3>
+      <h3>Made with React & SCSS</h3>
     </div>
   );
 };
