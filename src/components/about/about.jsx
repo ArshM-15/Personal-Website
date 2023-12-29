@@ -11,9 +11,9 @@ const About = () => {
         <div className="description">
           <h3>Hello!</h3>
           <p>
-            Hi, I am a 17 year old Front End Developer who has a passion for
-            creating visually appealing and user-friendly websites. I possess a
-            strong understanding of HTML, CSS, JavaScript, and React and have
+            I am a 17 year old Web Developer who has a passion for creating
+            visually appealing and user-friendly websites. I possess a strong
+            understanding of HTML, CSS, JavaScript, and React and have
             experience in building responsive web designs that work seamlessly
             across different devices. I am highly motivated, detail-oriented,
             and always eager to learn and improve my skills.
@@ -26,9 +26,12 @@ const About = () => {
             <div>HTML</div>
             <div>CSS</div>
             <div>JAVASCRIPT</div>
+            <div>JAVA</div>
             <div>REACT</div>
             <div>SCSS</div>
-            <div>GIT</div>
+            <div>GITHUB</div>
+            <div>FIREBASE</div>
+            <div>FIGMA</div>
           </div>
         </div>
       </div>

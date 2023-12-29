@@ -28,7 +28,7 @@ const Projects = () => {
               <span>SCSS</span>
               <span>JAVASCRIPT</span>
               <span>REACT</span>
-              <span>GIT</span>
+              <span>GITHUB</span>
             </div>
             <a href="https://unrealcuts.netlify.app/">View Site</a>
             <a href="https://github.com/ArshM-15/Barbershop-Website">Code</a>
@@ -49,7 +49,7 @@ const Projects = () => {
               <span>HTML</span>
               <span>SCSS</span>
               <span>JAVASCRIPT</span>
-              <span>GIT</span>
+              <span>GITHUB</span>
               <span>REACT</span>
               <span>FIGMA</span>
               <span>FIREBASE</span>
@@ -75,7 +75,7 @@ const Projects = () => {
               <span>HTML</span>
               <span>CSS</span>
               <span>JAVASCRIPT</span>
-              <span>GIT</span>
+              <span>GITHUB</span>
             </div>
             <a href="https://streamerloot.netlify.app/">View Site</a>
             <a href="https://github.com/ArshM-15/streamerloot">Code</a>
@@ -99,7 +99,7 @@ const Projects = () => {
               <span>SCSS</span>
               <span>JAVASCRIPT</span>
               <span>REACT</span>
-              <span>GIT</span>
+              <span>GITHUB</span>
               <span>FIREBASE</span>
             </div>
             <a href="https://lafih.netlify.app/">View Site</a>
