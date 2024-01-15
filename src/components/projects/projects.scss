@@ -42,9 +42,10 @@
 
       img {
         width: 27rem;
-        box-shadow: 1px 6px 9px -2px rgba(0, 0, 0, 0.86);
+        box-shadow: 1px 6px 9px -2px rgba(0, 0, 0, 0.372);
         transition: all 0.3s ease-in-out;
         transform-origin: center;
+        border-radius: 10px;
 
         @media (max-width: 1200px) {
           margin-right: 1.2rem;
@@ -66,7 +67,7 @@
 
       img:hover {
         width: 27rem;
-        transform: scale(1.05);
+        transform: scale(1.03);
         cursor: pointer;
 
         @media (max-width: 1200px) {

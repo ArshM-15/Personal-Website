@@ -12,7 +12,7 @@ const Home = () => {
       </header>
 
       <h1>Creating, Developing, and Always Learning</h1>
-      <h2>Front End Developer</h2>
+      <h2>Web Developer</h2>
       <Link to="contact" spy={true} smooth={true} offset={50} duration={700}>
         Let's Talk
       </Link>

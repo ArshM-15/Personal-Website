@@ -39,14 +39,14 @@
 
     .hand-rotate {
       margin-left: 0.5rem;
-      animation: rotate 1.5s ease 2s forwards;
+      animation: rotate 2s ease 1s forwards;
     }
     @keyframes rotate {
       0% {
         transform: none;
       }
       50% {
-        transform: rotate(60deg);
+        transform: rotate(70deg) scale(1.2);
       }
       100% {
         transform: none;

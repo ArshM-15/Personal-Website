@@ -11,12 +11,11 @@ const About = () => {
         <div className="description">
           <h3>Hello!</h3>
           <p>
-            I am a 17 year old Web Developer who has a passion for creating
-            visually appealing and user-friendly websites. I possess a strong
+            I am a 17-year-old Web Developer who has passion for software
+            engineering and creating user-friendly websites. I possess a decent
             understanding of HTML, CSS, JavaScript, and React and have
-            experience in building responsive web designs that work seamlessly
-            across different devices. I am highly motivated, detail-oriented,
-            and always eager to learn and improve my skills.
+            experience in building responsive website. I am highly motivated,
+            detail-oriented, and always eager to learn and improve my skills.
           </p>
         </div>
 
