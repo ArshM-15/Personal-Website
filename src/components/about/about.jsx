@@ -14,7 +14,7 @@ const About = () => {
             I am a 17-year-old Web Developer who has passion for software
             engineering and creating user-friendly websites. I possess a decent
             understanding of HTML, CSS, JavaScript, and React and have
-            experience in building responsive website. I am highly motivated,
+            experience in building responsive websites. I am highly motivated,
             detail-oriented, and always eager to learn and improve my skills.
           </p>
         </div>
