@@ -19,10 +19,7 @@ const Projects = () => {
           <div className="item-info">
             <h3>Academates</h3>
             <p>
-              Academates - a platform where high school students can get help in
-              various subjects for free. I have been working on this project for
-              the past several months and have been consistently improving it
-              for a better user experience.
+             Academates - a platform where high school students can get help in various subjects. The site has user authentication, live feed, and a real-time chat feature.
             </p>
             <div className="tech-items">
               <span>HTML</span>
