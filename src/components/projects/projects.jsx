@@ -30,7 +30,7 @@ const Projects = () => {
               <span>FIGMA</span>
               <span>FIREBASE</span>
             </div>
-            <a href="https://theacademates.com/">View Site</a>
+            <a href="https://academates.netlify.app/">View Site</a>
             {/* <a href="https://github.com/ArshM-15/academates">Code</a> */}
           </div>
         </div>
