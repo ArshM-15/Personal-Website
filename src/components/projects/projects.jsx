@@ -13,7 +13,9 @@ const Projects = () => {
       </div>
       <div className="projects-container">
         <div className="projects-item">
-          <a href="https://theacademates.com/">
+{/*           <a href="https://theacademates.com/"> */}
+            <a href="https://academates.netlify.app/">
+        
             <img src={academates} alt="image of the website" />
           </a>
           <div className="item-info">
