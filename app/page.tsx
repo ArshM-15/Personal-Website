@@ -7,8 +7,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-50 text-gray-900 flex justify-center px-6">
-      <div className="max-w-2xl w-full flex flex-col" style={{ minHeight: 'calc(100vh - 10rem)', paddingTop: '7rem', paddingBottom: '5rem' }}>
-        <div style={{ marginBottom: '1.25rem', flexGrow: 1, marginLeft: '3rem' }}>
+      <div className="max-w-2xl w-10/12 md:w-full flex flex-col" style={{ minHeight: 'calc(100vh - 10rem)', paddingTop: '7rem', paddingBottom: '5rem' }}>
+        <div className="md:ml-12" style={{ marginBottom: '1.25rem', flexGrow: 1 }}>
           {/* Profile Section - Always visible */}
           <div>
             {/* Profile Image */}
