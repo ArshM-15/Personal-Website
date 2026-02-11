@@ -6,9 +6,9 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState("about");
 
   return (
-    <main className="min-h-screen bg-gray-50 text-gray-900 flex justify-center px-6">
-      <div className="max-w-2xl w-10/12 md:w-full flex flex-col" style={{ minHeight: 'calc(100vh - 10rem)', paddingTop: '7rem', paddingBottom: '5rem' }}>
-        <div className="md:ml-12" style={{ marginBottom: '1.25rem', flexGrow: 1 }}>
+    <main className="min-h-screen bg-gray-50 text-gray-900 flex justify-center items-center px-6">
+      <div className="max-w-2xl w-10/12 md:w-full flex flex-col" style={{ paddingBottom: '2rem' }}>
+        <div className="lg:ml-12" style={{ marginBottom: '1.25rem', flexGrow: 1 }}>
           {/* Profile Section - Always visible */}
           <div>
             {/* Profile Image */}
@@ -23,7 +23,7 @@ export default function Home() {
             {/* Name and Title */}
             <div style={{ marginBottom: '0.75rem' }}>
               <h1 className="text-5xl font-bold" style={{ marginBottom: '0.375rem' }}>Arsh Mundi</h1>
-              <p className="text-xl text-gray-600">Software Engineering Student</p>
+              <p className="text-xl text-gray-600">Software Engineering Student @ University of Guelph</p>
             </div>
 
             {/* Navigation */}
@@ -62,22 +62,19 @@ export default function Home() {
                 I'm a university student with a deep passion for coding and technology. Creating, building, and always learning.
               </p>
               <p className="leading-relaxed" style={{ marginBottom: '0.625rem' }}>
-                Currently working on{" "}
-                <a
-                  href="https://trytorial.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                Previously built Torial, a platform that created custom video explanations for student's toughest questions which got acquired by a YC-backed EdTech company. Take a look at my other{" "}
+                <button
+                  onClick={() => setActiveSection("projects")}
                   className="text-blue-600 hover:underline font-medium cursor-pointer"
                 >
-                  Torial ↗
-                </a>
-                , a platform that creates custom video explanations for student's toughest questions. I'm highly motivated and always eager to expand my skills while tackling challenging problems and crafting solutions that make a real difference.
+                  Projects ↗
+                </button>
               </p>
               
               <div style={{ marginTop: '0.625rem' }}>
                 <h3 className="text-sm font-medium text-gray-900 mb-4">Technical Skills</h3>
                 <div className="flex flex-wrap gap-x-3 gap-y-1">
-                  {["Java", "Python", "C", "JavaScript", "Next.js", "Tailwind", "Firebase", "MySQL", "Git/GitLab"].map((skill) => (
+                  {["Java", "Python", "C", "JavaScript", "Next.js", "Tailwind", "Firebase", "MySQL", "Git"].map((skill) => (
                     <span
                       key={skill}
                       className="text-sm text-gray-700"
@@ -105,7 +102,23 @@ export default function Home() {
                   </a>
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  A platform that creates custom video explanations for student's toughest questions in minutes.
+                  A platform that creates explainer videos for student's toughest questions in seconds.
+                </p>
+              </div>
+
+              <div style={{ marginBottom: '0.625rem' }}>
+                <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.2rem' }}>
+                  <a
+                    href="https://github.com/ArshM-15/Nodsgy-Audio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline font-medium cursor-pointer"
+                  >
+                    Nodsgy ↗
+                  </a>
+                </p>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Turns documents and questions into simple verbal explanations.
                 </p>
               </div>
 
@@ -121,7 +134,7 @@ export default function Home() {
                   </a>
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  A platform where high school students can get help in various subjects. 
+                  Platform where high school students can get help in various subjects. 
                   Features user authentication, live feed, and real-time chat functionality.
                 </p>
               </div>
@@ -138,7 +151,7 @@ export default function Home() {
                   </a>
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  An E-commerce site where users can search for gaming and streaming 
+                  E-commerce site where users can search for gaming and streaming 
                   equipment used by popular streamers.
                 </p>
               </div>
