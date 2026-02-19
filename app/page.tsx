@@ -6,9 +6,9 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState("about");
 
   return (
-    <main className="min-h-screen bg-gray-50 text-gray-900 flex justify-center items-center px-6">
-      <div className="max-w-2xl w-10/12 md:w-full flex flex-col" style={{ paddingBottom: '2rem' }}>
-        <div className="lg:ml-12" style={{ marginBottom: '1.25rem', flexGrow: 1 }}>
+    <main className="min-h-screen bg-gray-50 text-gray-900" style={{ display: 'flex', justifyContent: 'center', paddingLeft: '1.5rem', paddingRight: '1.5rem' }}>
+      <div className="page-content" style={{ maxWidth: '672px', width: '100%', paddingTop: '3rem', display: 'flex', flexDirection: 'column' as const, flex: 1 }}>
+        <div style={{ marginBottom: '1.25rem' }}>
           {/* Profile Section - Always visible */}
           <div>
             {/* Profile Image */}
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
 
             {/* Navigation */}
-            <nav className="flex gap-8 text-sm" style={{ marginBottom: '0.75rem' }}>
+            <nav className="flex gap-8 text-base" style={{ marginBottom: '0.75rem' }}>
               <button
                 onClick={() => setActiveSection("about")}
                 className={`hover:text-gray-900 transition-colors cursor-pointer ${
@@ -44,44 +44,74 @@ export default function Home() {
               >
                 /projects
               </button>
-              <button
-                onClick={() => setActiveSection("contact")}
-                className={`hover:text-gray-900 transition-colors cursor-pointer ${
-                  activeSection === "contact" ? "text-gray-900 font-medium" : "text-gray-500"
-                }`}
+              <a
+                href="/images/arshvir-mundi-resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-gray-900 transition-colors cursor-pointer"
               >
-                /contact
-              </button>
+                /resume
+              </a>
             </nav>
           </div>
 
           {/* About Section */}
           {activeSection === "about" && (
-            <div className="text-gray-700 animate-fadeIn" style={{ marginBottom: '0.75rem' }}>
-              <p className="leading-relaxed" style={{ marginBottom: '0.375rem' }}>
-                I'm a university student with a deep passion for coding and technology. Creating, building, and always learning.
-              </p>
-              <p className="leading-relaxed" style={{ marginBottom: '0.625rem' }}>
-                Previously built Torial, a platform that created custom video explanations for student's toughest questions which got acquired by a YC-backed EdTech company. Take a look at my other{" "}
-                <button
-                  onClick={() => setActiveSection("projects")}
-                  className="text-blue-600 hover:underline font-medium cursor-pointer"
-                >
-                  Projects ↗
-                </button>
-              </p>
+            <div className="text-gray-700 animate-fadeIn mt-6" style={{ marginBottom: '0.75rem' }}>
+              <ul className="space-y-3 leading-relaxed text-lg">
+                <li>• I build web apps that people actually use</li>
+                <li>• Built an AI video tool, got acquired by a YC EdTech company</li>
+                <li>• Looking for Summer 2026 and Fall 2026 opportunities</li>
+                <li>
+                  • Check out my{" "}
+                  <button
+                    onClick={() => setActiveSection("projects")}
+                    className="text-blue-600 hover:underline font-medium cursor-pointer"
+                  >
+                    /projects
+                  </button>
+                </li>
+              </ul>
               
-              <div style={{ marginTop: '0.625rem' }}>
-                <h3 className="text-sm font-medium text-gray-900 mb-4">Technical Skills</h3>
+              <div style={{ marginTop: '1.5rem' }}>
+                <h3 className="text-base font-medium text-gray-900" style={{ marginBottom: '0.35rem' }}>Technical Skills</h3>
                 <div className="flex flex-wrap gap-x-3 gap-y-1">
-                  {["Java", "Python", "C", "JavaScript", "Next.js", "Tailwind", "Firebase", "MySQL", "Git"].map((skill) => (
+                  {["C", "Java", "Python", "JavaScript", "HTML", "CSS", "React", "Next.js", "Vue", "Nuxt", "React Native", "Tailwind CSS", "Firebase", "MySQL", "MongoDB", "Figma", "Manim", "Git/GitHub"].map((skill) => (
                     <span
                       key={skill}
-                      className="text-sm text-gray-700"
+                      className="text-sm text-gray-600 bg-gray-200 rounded-md"
+                      style={{ paddingLeft: '0.75rem', paddingRight: '0.75rem', paddingTop: '0.125rem', paddingBottom: '0.125rem' }}
                     >
                       {skill}
                     </span>
                   ))}
+                </div>
+              </div>
+
+              <div style={{ marginTop: '1.5rem' }}>
+                <div className="flex gap-8">
+                  <a
+                    href="https://github.com/ArshM-15"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline font-medium cursor-pointer"
+                  >
+                    GitHub ↗
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/arshvir-mundi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline font-medium cursor-pointer"
+                  >
+                    LinkedIn ↗
+                  </a>
+                  <a
+                    href="mailto:mundia@uoguelph.ca"
+                    className="text-blue-600 hover:underline font-medium cursor-pointer"
+                  >
+                    Email ↗
+                  </a>
                 </div>
               </div>
             </div>
@@ -89,11 +119,11 @@ export default function Home() {
 
           {/* Projects Section */}
           {activeSection === "projects" && (
-            <div className="animate-fadeIn" style={{ marginBottom: '0.75rem' }}>
+            <div className="animate-fadeIn mt-6" style={{ marginBottom: '0.75rem' }}>
               <div style={{ marginBottom: '0.625rem' }}>
                 <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.2rem' }}>
                   <a
-                    href="https://trytorial.com"
+                    href="https://x.com/trytorial"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline font-medium cursor-pointer"
@@ -101,8 +131,8 @@ export default function Home() {
                     Torial ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  A platform that creates explainer videos for student's toughest questions in seconds.
+                <p className="text-gray-600 text-base leading-relaxed">
+                  A platform that creates explainer videos for student's toughest questions in seconds. Acquired by a YC company.
                 </p>
               </div>
 
@@ -117,8 +147,8 @@ export default function Home() {
                     Nodsgy ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Turns documents and questions into simple verbal explanations.
+                <p className="text-gray-600 text-base leading-relaxed">
+                  Turns documents and questions into simple verbal explanations. 300 signups and 5K+ audio explanations created. 
                 </p>
               </div>
 
@@ -133,9 +163,8 @@ export default function Home() {
                     Academates ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Platform where high school students can get help in various subjects. 
-                  Features user authentication, live feed, and real-time chat functionality.
+                <p className="text-gray-600 text-base leading-relaxed">
+                  Platform like Reddit where high school students can get help in various subjects.
                 </p>
               </div>
 
@@ -150,7 +179,7 @@ export default function Home() {
                     Streamerloot ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-base leading-relaxed">
                   E-commerce site where users can search for gaming and streaming 
                   equipment used by popular streamers.
                 </p>
@@ -158,47 +187,12 @@ export default function Home() {
             </div>
           )}
 
-          {/* Contact Section */}
-          {activeSection === "contact" && (
-            <div className="animate-fadeIn" style={{ marginBottom: '0.75rem' }}>
-              <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.625rem' }}>
-                I'm always interested in hearing about new projects and opportunities. 
-                Whether you have a question or just want to say hi, feel free to reach out!
-              </p>
-              
-              <div className="flex gap-8">
-                <a
-                  href="https://github.com/ArshM-15"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline font-medium cursor-pointer"
-                >
-                  GitHub ↗
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/arshvir-mundi/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline font-medium cursor-pointer"
-                >
-                  LinkedIn ↗
-                </a>
-                <a
-                  href="mailto:arshvir.mundi@gmail.com"
-                  className="text-blue-600 hover:underline font-medium cursor-pointer"
-                >
-                  Email ↗
-                </a>
-              </div>
-            </div>
-          )}
-
         </div>
         
         {/* Footer */}
-        <div style={{ marginTop: 'auto', paddingTop: '4rem', textAlign: 'center' }}>
+        <div style={{ marginTop: 'auto', paddingBottom: '2rem', textAlign: 'center' as const }}>
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} - Built with Next.js & Tailwind
+            Built with Next.js & Tailwind
           </p>
         </div>
       </div>
