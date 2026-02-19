@@ -76,7 +76,7 @@ export default function Home() {
               <div style={{ marginTop: '1.5rem' }}>
                 <h3 className="text-base font-medium text-gray-900" style={{ marginBottom: '0.35rem' }}>Technical Skills</h3>
                 <div className="flex flex-wrap gap-x-3 gap-y-1">
-                  {["C", "Java", "Python", "JavaScript", "HTML", "CSS", "React", "Next.js", "Vue", "Nuxt", "React Native", "Tailwind CSS", "Firebase", "MySQL", "MongoDB", "Figma", "Manim", "Git/GitHub"].map((skill) => (
+                  {["Python", "Java", "C", "JavaScript", "HTML", "CSS", "React", "Next.js", "Vue", "Nuxt", "React Native", "Tailwind CSS", "Firebase", "MySQL", "MongoDB", "Figma", "Manim", "Git/GitHub"].map((skill) => (
                     <span
                       key={skill}
                       className="text-base text-gray-600 bg-gray-200 rounded-md"
