@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Arsh Mundi - Software Engineering Student",
-  description: "Arsh Mundi is a university student passionate about coding and technology. Currently working on Torial, a platform that creates custom video explanations for students' toughest questions.",
+  description: "Dialed in",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>",
   },
