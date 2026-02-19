@@ -59,8 +59,8 @@ export default function Home() {
           {activeSection === "about" && (
             <div className="text-gray-700 animate-fadeIn mt-6" style={{ marginBottom: '0.75rem' }}>
               <ul className="space-y-3 leading-relaxed text-lg">
-                <li>• I build web apps that people actually use</li>
-                <li>• Built an AI video tool, got acquired by a YC EdTech company</li>
+                <li>• I build websites that people actually use</li>
+                <li>• Built an AI video platform, got acquired by a YC EdTech company</li>
                 <li>• Looking for Summer 2026 and Fall 2026 opportunities</li>
                 <li>
                   • Check out my{" "}
@@ -79,7 +79,7 @@ export default function Home() {
                   {["C", "Java", "Python", "JavaScript", "HTML", "CSS", "React", "Next.js", "Vue", "Nuxt", "React Native", "Tailwind CSS", "Firebase", "MySQL", "MongoDB", "Figma", "Manim", "Git/GitHub"].map((skill) => (
                     <span
                       key={skill}
-                      className="text-sm text-gray-600 bg-gray-200 rounded-md"
+                      className="text-base text-gray-600 bg-gray-200 rounded-md"
                       style={{ paddingLeft: '0.75rem', paddingRight: '0.75rem', paddingTop: '0.125rem', paddingBottom: '0.125rem' }}
                     >
                       {skill}
@@ -119,7 +119,7 @@ export default function Home() {
 
           {/* Projects Section */}
           {activeSection === "projects" && (
-            <div className="animate-fadeIn mt-6" style={{ marginBottom: '0.75rem' }}>
+            <div className="animate-fadeIn mt-6 text-lg" style={{ marginBottom: '0.75rem' }}>
               <div style={{ marginBottom: '0.625rem' }}>
                 <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.2rem' }}>
                   <a
@@ -131,15 +131,15 @@ export default function Home() {
                     Torial ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-base leading-relaxed">
+                <p className="text-gray-700 text-lg leading-relaxed">
                   A platform that creates explainer videos for student's toughest questions in seconds. Acquired by a YC company.
                 </p>
               </div>
 
               <div style={{ marginBottom: '0.625rem' }}>
-                <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.2rem' }}>
+                <p className="text-gray-700 text-lg leading-relaxed" style={{ marginBottom: '0.2rem' }}>
                   <a
-                    href="https://github.com/ArshM-15/Nodsgy-Audio"
+                    href="https://nodsgy-audio.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline font-medium cursor-pointer"
@@ -147,13 +147,13 @@ export default function Home() {
                     Nodsgy ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-base leading-relaxed">
-                  Turns documents and questions into simple verbal explanations. 300 signups and 5K+ audio explanations created. 
+                <p className="text-gray-700 text-lg leading-relaxed">
+                  Turns documents and questions into simple verbal explanations. 300 signups and 5K+ audio explanations created.
                 </p>
               </div>
 
               <div style={{ marginBottom: '0.625rem' }}>
-                <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.2rem' }}>
+                <p className="text-gray-700 text-lg leading-relaxed" style={{ marginBottom: '0.2rem' }}>
                   <a
                     href="https://academates.netlify.app/"
                     target="_blank"
@@ -163,13 +163,13 @@ export default function Home() {
                     Academates ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-base leading-relaxed">
+                <p className="text-gray-700 text-lg leading-relaxed">
                   Platform like Reddit where high school students can get help in various subjects.
                 </p>
               </div>
 
               <div style={{ marginBottom: '0.625rem' }}>
-                <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.2rem' }}>
+                <p className="text-gray-700 text-lg leading-relaxed" style={{ marginBottom: '0.2rem' }}>
                   <a
                     href="https://streamerloot.netlify.app/"
                     target="_blank"
@@ -179,9 +179,8 @@ export default function Home() {
                     Streamerloot ↗
                   </a>
                 </p>
-                <p className="text-gray-600 text-base leading-relaxed">
-                  E-commerce site where users can search for gaming and streaming 
-                  equipment used by popular streamers.
+                <p className="text-gray-700 text-lg leading-relaxed">
+                  E-commerce site where users can search for gaming and streaming equipment used by popular streamers.
                 </p>
               </div>
             </div>
