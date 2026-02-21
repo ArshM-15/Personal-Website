@@ -59,7 +59,6 @@ export default function Home() {
           {activeSection === "about" && (
             <div className="text-gray-700 animate-fadeIn mt-6" style={{ marginBottom: '0.75rem' }}>
               <ul className="space-y-3 leading-relaxed text-lg">
-                <li>• I build websites that people actually use</li>
                 <li>• Built an AI video platform, got acquired by a YC EdTech company</li>
                 <li>• Looking for Summer 2026 and Fall 2026 opportunities</li>
                 <li>

@@ -1,11 +1,21 @@
 # arshmundi.com
 
-Welcome to my personal site 👋
+My personal website!
+
+## Overview
+
+A minimal single page portfolio built with Next.js and Tailwind CSS. Includes a tabbed layout with an about section, projects list, and resume link. No external UI libraries, just utility classes and inline styles.
 
 ## Stack
 
-- Next.js 15
-- Tailwind CSS
-- Deployed on Vercel
+| Layer     | Technology                                |
+| --------- | ----------------------------------------- |
+| Framework | Next.js 15 (App Router)                   |
+| Styling   | Tailwind CSS                              |
+| Language  | TypeScript                                |
+| Fonts     | Geist Sans & Geist Mono (via `next/font`) |
+| Hosting   | Vercel                                    |
 
-# Thanks for visiting 😊
+## Deployment
+
+Deployed on Vercel
