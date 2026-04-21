@@ -47,7 +47,7 @@ export default function Home() {
               <a
                 href="/arshvir-mundi-resume.pdf"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="text-gray-500 hover:text-gray-900 transition-colors cursor-pointer"
               >
                 /resume
