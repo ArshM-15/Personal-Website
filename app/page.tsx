@@ -46,7 +46,7 @@ export default function Home() {
                 /projects
               </button>
               <a
-                href="/arshvir-mundi-resume.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="text-gray-500 hover:text-gray-900 transition-colors cursor-pointer"

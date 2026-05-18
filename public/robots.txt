@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /arshvir-mundi-resume.pdf
+Disallow: /resume.pdf

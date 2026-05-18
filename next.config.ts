@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/arshvir-mundi-resume.pdf",
+        source: "/resume.pdf",
         headers: [
           {
             key: "X-Robots-Tag",
