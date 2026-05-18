@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("about");
@@ -121,17 +122,15 @@ export default function Home() {
             <div className="animate-fadeIn mt-6 text-lg" style={{ marginBottom: '0.75rem' }}>
               <div style={{ marginBottom: '0.625rem' }}>
                 <p className="text-gray-700 leading-relaxed" style={{ marginBottom: '0.2rem' }}>
-                  <a
-                    href="https://x.com/trytorial"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link
+                    href="/torial"
                     className="text-blue-600 hover:underline font-medium cursor-pointer"
                   >
                     Torial ↗
-                  </a>
+                  </Link>
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  A platform that creates explainer videos for student's toughest questions in seconds. Acquired by a YC company.
+                  A platform that creates explainer videos for student&apos;s toughest questions in seconds. Acquired by a YC company.
                 </p>
               </div>
 
