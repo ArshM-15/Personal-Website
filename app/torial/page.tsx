@@ -76,75 +76,10 @@ export default function TorialPage() {
               I built the rendering pipeline, the LLM-driven script generation, and the
               front-end. It grew to thousands of generated videos.
             </p>
-            <p className="font-semibold text-gray-900" style={{ marginBottom: "1rem" }}>
+            <p className="font-semibold text-gray-900">
               Acquired by a YC EdTech company.
             </p>
-            <p>
-              <a
-                href="https://www.youtube.com/@torial_explanations/videos"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline font-medium"
-              >
-                Torial on YouTube ↗
-              </a>
-            </p>
           </div>
-
-          {/* Auto-publish to YouTube feature */}
-          <section style={{ marginBottom: "2rem" }}>
-            <h2 className="text-2xl font-semibold" style={{ marginBottom: "0.5rem" }}>
-              Auto-publish to YouTube
-            </h2>
-            <div className="text-gray-700 text-lg leading-relaxed" style={{ marginBottom: "0.875rem" }}>
-              <p style={{ marginBottom: "0.75rem" }}>
-                Beyond on-demand generation, Torial could automatically produce explainers for
-                trending student search queries and push them straight to YouTube. It ran as a
-                hands-off content engine with zero editing in the loop.
-              </p>
-              <p>
-                Each upload included a synthesized voiceover, an animated walkthrough, and
-                SEO-tuned title, description, and tags, all generated end-to-end.
-              </p>
-            </div>
-            <figure style={{ margin: 0 }}>
-              <video
-                src={publicUrl("videos/youtube-audit.mp4")}
-                controls
-                preload="metadata"
-                playsInline
-                style={videoBoxStyle}
-              />
-              <figcaption className="text-gray-600 text-base" style={{ marginTop: "0.5rem" }}>
-                Auto-generated video pushed straight to YouTube
-              </figcaption>
-            </figure>
-          </section>
-
-          {/* Brainrot-style shorts: vertical 9:16 video */}
-          <section style={{ marginBottom: "2rem" }}>
-            <h2 className="text-2xl font-semibold" style={{ marginBottom: "0.5rem" }}>
-              Brainrot mode
-            </h2>
-            <p className="text-gray-700 text-lg leading-relaxed" style={{ marginBottom: "0.875rem" }}>
-              Torial could also remix explainers into vertical, brainrot-style shorts. They
-              were designed to thrive on TikTok, Reels, and YouTube Shorts, where attention
-              spans last about two seconds and a parkour overlay carries the eye through the
-              lesson.
-            </p>
-            <figure style={{ margin: "0 auto", maxWidth: "230px" }}>
-              <video
-                src={publicUrl("videos/brainrot.mp4")}
-                controls
-                preload="metadata"
-                playsInline
-                style={videoBoxStyle}
-              />
-              <figcaption className="text-gray-600 text-sm" style={{ marginTop: "0.5rem", textAlign: "center" }}>
-                Created using Torial in under 60 seconds
-              </figcaption>
-            </figure>
-          </section>
 
           {/* Example outputs side-by-side */}
           <section style={{ marginBottom: "2rem" }}>
@@ -185,6 +120,71 @@ export default function TorialPage() {
                 </figcaption>
               </figure>
             </div>
+          </section>
+
+          {/* Brainrot-style shorts: vertical 9:16 video */}
+          <section style={{ marginBottom: "2rem" }}>
+            <h2 className="text-2xl font-semibold" style={{ marginBottom: "0.5rem" }}>
+              Brainrot mode
+            </h2>
+            <p className="text-gray-700 text-lg leading-relaxed" style={{ marginBottom: "0.875rem" }}>
+              Torial could also remix explainers into vertical, brainrot-style shorts. They
+              were designed to thrive on TikTok, Reels, and YouTube Shorts, where attention
+              spans last about two seconds and a parkour overlay carries the eye through the
+              lesson.
+            </p>
+            <figure style={{ margin: "0 auto", maxWidth: "230px" }}>
+              <video
+                src={publicUrl("videos/brainrot.mp4")}
+                controls
+                preload="metadata"
+                playsInline
+                style={videoBoxStyle}
+              />
+              <figcaption className="text-gray-600 text-sm" style={{ marginTop: "0.5rem", textAlign: "center" }}>
+                Created using Torial in under 60 seconds
+              </figcaption>
+            </figure>
+          </section>
+
+          {/* Auto-publish to YouTube feature */}
+          <section style={{ marginBottom: "2rem" }}>
+            <h2 className="text-2xl font-semibold" style={{ marginBottom: "0.5rem" }}>
+              Auto-publish to YouTube
+            </h2>
+            <div className="text-gray-700 text-lg leading-relaxed" style={{ marginBottom: "0.875rem" }}>
+              <p style={{ marginBottom: "0.75rem" }}>
+                Beyond on-demand generation, Torial could automatically produce explainers for
+                trending student search queries and push them straight to YouTube. It ran as a
+                hands-off content engine with zero editing in the loop.
+              </p>
+              <p>
+                Each upload included a synthesized voiceover, an animated walkthrough, and
+                SEO-tuned title, description, and tags, all generated end-to-end.
+              </p>
+            </div>
+            <figure style={{ margin: 0 }}>
+              <video
+                src={publicUrl("videos/youtube-audit.mp4")}
+                controls
+                preload="metadata"
+                playsInline
+                style={videoBoxStyle}
+              />
+              <figcaption className="text-gray-600 text-base" style={{ marginTop: "0.5rem" }}>
+                Auto-generated video pushed straight to YouTube
+              </figcaption>
+            </figure>
+            <p className="text-gray-700 text-lg leading-relaxed" style={{ marginTop: "0.875rem" }}>
+              <a
+                href="https://www.youtube.com/@torial_explanations/videos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline font-medium"
+              >
+                Torial on YouTube ↗
+              </a>
+            </p>
           </section>
 
           {/* Screenshots: only renders once you add images */}
